@@ -1,0 +1,76 @@
+/* general */
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+.container-nav-header {
+    height: 80px;
+    width: 100%;
+}
+
+#main-container {
+    height:100vh;
+    display: flex;
+    overflow: auto;
+}
+
+aside {
+    width: 150px;
+    height: 100%;
+}
+
+.container-aside {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    padding-top: 110px;
+}
+
+main {
+    width: calc(100% - 150px);
+    height: 100%;
+    overflow: auto;
+}
+
+.container-top {
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* debug */
+
+.debug header {
+    background-color: green;
+}
+
+.debug .container-nav-header {
+    border: 1px dashed black;
+}
+
+.debug aside {
+    background-color: aqua;
+}
+
+.debug #main-container {
+    background-color: red;
+}
+
+.debug main {
+    background-color: fuchsia;
+}
+
+.debug .container-aside {
+    border: 1px dashed black;
+}
+
+.debug .container-top {
+    border: 1px dashed black;
+}
+
+.debug .container-bottom {
+    border: 1px dashed blue;
+}
