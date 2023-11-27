@@ -10,12 +10,29 @@
     overflow-y: auto;
 }
 
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.nav-up {
+    margin: 0 -16px;
+}
+
+.nav-bottom {
+    margin: 0 -16px;
+}
+.col-button nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
 /* debug */
 
 .debug #main-header {
     border: 1px dashed black;
 }
 
-.debug .col, .col-8, .col-4 {
-    border: 1px dashed black;
-}

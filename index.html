@@ -2,9 +2,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- link css / bootstrap-->
+        <!-- link css / bootstrap / font-awasone-->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <title>Bootstrap-dashboard</title>
     </head>
 
@@ -16,15 +17,30 @@
                 <div class="row">
 
                     <div class="col-auto">
-                        col-auto
+                        <img src="img/logo.svg" alt="Logo Boolean">
                     </div>
                     <div class="col">
-                        col
+                        <div class="form-outline" data-mdb-input-init>
+                            <input type="search" id="form1" class="form-control" placeholder="Prova a cercare:" aria-label="Search" />
+                          </div>
                     </div>
-                    <div class="col-auto">
-                        col-auto
+                    <div class="col-button col-auto">
+                        <nav class="">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-list"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-question"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        
                     </div>
-                    
+
                 </div>
             </div>
         </header>
@@ -32,17 +48,35 @@
         <section id="main">
             <div class="container-fluid h-100">
                 <div class="row h-100">
-                    <div class="col-auto h-100 bg-primary">
+                    <div class="col-auto h-100">
 
                         <!--aside-->
                         <aside class="h-100 d-flex flex-column justify-content-between">
 
                             <nav class="nav-up">
-                                nav-up
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i>Stats</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><i class="fa-solid fa-signal"></i>Signal</a>
+                                    </li>
+                                </ul>
+                                
+                                
                             </nav>
 
-                            <nav class="nav-button">
-                                nav-down
+                            <nav class="nav-buttom">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa-solid fa-gear"></i>Admin</a>
+                                    </li>
+                                </ul>
                             </nav>
 
                         </aside>
@@ -52,7 +86,7 @@
                         <main id="main-overflow" class="h-100">
 
                             <!--header-main-->
-                            <header>
+                            <header class="bg-primary">
                                 header-main
                             </header>
 
@@ -75,6 +109,6 @@
             </div>
         </section>
          <!-- bootstrap js-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
 </html> 
